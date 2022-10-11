@@ -47,3 +47,54 @@ header {
 .menu li a:hover{
     background-color: rgba(100, 100, 100, 0.5);
 }
+
+.container-main{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 0.7fr 1.1fr 1.1fr 1.1fr;
+    grid-template-rows: 2fr 1.5fr 0.5fr;
+    grid-template-areas: "sidebar main main main"
+                        "sidebar conteudo1 conteudo2 conteudo3"
+                        "sidebar footer footer footer";
+    grid-gap: 0.5em;
+    font-size: 16px;
+    font-family: tahoma;
+    text-align: center;
+    font-weight: 800;
+}
+
+#main{
+    background-color: lightcoral;
+    grid-area: main;
+    border-radius: 0.8em;
+}
+
+#sidebar{
+    background-color: lightcyan;
+    grid-area: sidebar;
+    border-radius: 0.8em;
+}
+
+#conteudo1{
+    background-color: lightgray;
+    grid-area: conteudo1;
+    border-radius: 0.8em;
+}
+
+#conteudo2{
+    background-color: lightskyblue;
+    grid-area: conteudo2;
+    border-radius: 0.8em;
+}
+
+#conteudo3{
+    background-color: lightpink;
+    grid-area: conteudo3;
+    border-radius: 0.8em;
+}
+
+#footer{
+    background-color: lightsalmon;
+    grid-area: footer;
+    border-radius: 0.8em;
+}

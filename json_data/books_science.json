@@ -1,0 +1,55 @@
+{
+    "science": [
+        {
+            "id_book": "This is image",
+            "image": "https://blablabla"
+        },
+        {
+            "author": "fulano",
+            "category": "science",
+            "date_release": "dia tal",
+            "description": "balblabla livro bom",
+            "id_book": 0,
+            "name_book": "Viagem a Lua",
+            "rates": [
+                {
+                    "author_rate": "fulano de tal",
+                    "comment": "muito top livrozim massa",
+                    "email": "fulano3@email.com",
+                    "stars": 5
+                }
+            ]
+        },
+        {
+            "author": "fulano",
+            "category": "science",
+            "date_release": "dia tal",
+            "description": "balblabla livro bom",
+            "id_book": 5,
+            "name_book": "mist\u00c3\u00a9rios dos largatos",
+            "rates": [
+                {
+                    "author_rate": "fulano de tal",
+                    "comment": "muito top livrozim massa",
+                    "email": "fulano2@email.com",
+                    "stars": 5
+                },
+                {
+                    "author_rate": "Juliano do Morro",
+                    "comment": "Livro muito loko meu",
+                    "email": "fulano@email.com",
+                    "stars": 4
+                }
+            ]
+        },
+        {
+            "author": "pedrim da serra",
+            "category": "science",
+            "date_release": "01/10/1998",
+            "description": "pedrim e sua historia de vida na selva",
+            "id_book": 5,
+            "name_book": "O poderoso Pedrao",
+            "rates": []
+        }
+    ]
+}

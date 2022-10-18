@@ -1,15 +1,12 @@
 {
     "science": [
         {
-            "id_book": "This is image",
-            "image": "https://blablabla"
-        },
-        {
             "author": "fulano",
+            "img": "https://a-static.mlcdn.com.br/1500x1500/livro-o-pequeno-principe/magazineluiza/228782900/159d6918b41a93af36fe6727aab9b701.jpg",
             "category": "science",
             "date_release": "dia tal",
             "description": "balblabla livro bom",
-            "id_book": 0,
+            "id_book": 1,
             "name_book": "Viagem a Lua",
             "rates": [
                 {
@@ -22,10 +19,11 @@
         },
         {
             "author": "fulano",
+            "img": "https://a-static.mlcdn.com.br/1500x1500/livro-o-pequeno-principe/magazineluiza/228782900/159d6918b41a93af36fe6727aab9b701.jpg",
             "category": "science",
             "date_release": "dia tal",
             "description": "balblabla livro bom",
-            "id_book": 5,
+            "id_book": 2,
             "name_book": "mist\u00c3\u00a9rios dos largatos",
             "rates": [
                 {
@@ -44,10 +42,11 @@
         },
         {
             "author": "pedrim da serra",
+            "img": "https://a-static.mlcdn.com.br/1500x1500/livro-o-pequeno-principe/magazineluiza/228782900/159d6918b41a93af36fe6727aab9b701.jpg",
             "category": "science",
             "date_release": "01/10/1998",
             "description": "pedrim e sua historia de vida na selva",
-            "id_book": 5,
+            "id_book": 3,
             "name_book": "O poderoso Pedrao",
             "rates": []
         }

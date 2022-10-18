@@ -16,14 +16,29 @@
             "password": "ahahahaha"
         },
         {
-            "email": "fulano2@email.com",
-            "name": "el usuario",
-            "password": "ahahahaha"
+            "email": "pedro.bolzan@grupocoutinho.com",
+            "name": "ABSCARD_Tenant",
+            "password": "asas"
         },
         {
-            "email": "pedrao@email.com",
-            "name": "Pedro Gabriel",
-            "password": "olha minha senhna"
+            "email": "rabino@email.com",
+            "name": "El rabas",
+            "password": "asdasfsnd"
+        },
+        {
+            "email": "pedim@email.com",
+            "name": "Pedrim",
+            "password": "pedro"
+        },
+        {
+            "email": "teste@teste",
+            "name": "teste",
+            "password": "teste"
+        },
+        {
+            "email": "juliano@email.com",
+            "name": "juliano pinto grande",
+            "password": "juliano"
         }
     ]
 }

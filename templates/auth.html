@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Login EducaES</title>
+    <script>
+        function hideMessage(){
+            element = document.getElementById("message")
+            element.style.display = "None"
+        }
+    </script>
+
+</head>
+<body class="relative">
+    {% if message["message"] == "Conta criada com sucesso!" %}
+        <div id="message" class="absolute top-5 right-5 h-16 w-64 bg-green-600 border-2 border-green-500 shadow-xl rounded-lg">
+            <div class="relative flex justify-center items-center h-full w-full">
+                <div onclick="hideMessage()" class="flex justify-center items-center absolute top-1 right-1 h-5 w-5 bg-green-600 cursor-pointer rounded-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="text-white w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg> 
+                </div>
+                <h1 class="text-white">{{message["message"]}}</h1>
+            </div>
+        </div>
+    {% endif %}
+    {% if message["message"] == "Senha Incorreta" %}
+        <div id="message" class="absolute top-5 right-5 h-16 w-64 bg-red-600 border-2 border-red-500 shadow-xl rounded-lg">
+            <div class="relative flex justify-center items-center h-full w-full">
+                <div onclick="hideMessage()" class="flex justify-center items-center absolute top-1 right-1 h-5 w-5 bg-red-600 cursor-pointer rounded-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="text-white w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg> 
+                </div>
+                <h1 class="text-white">{{message["message"]}}</h1>
+            </div>
+        </div>
+    {% endif %}
+    <div class="flex justify-center items-center w-full h-screen bg-blue-500">
+        <div class="bg-white w-1/2 h-1/2 rounded-lg shadow-xl p-10">
+            <div class="w-full flex justify-center">
+                <h1 class="text-2xl font-bold">Login</h1>
+            </div>
+            <div class="w-full h-full flex flex-col justify-center items-center">
+                <form class="w-full h-full flex flex-col pt-10 items-center" action="/auth" method="post">
+                    <input name="email" class="w-full mb-5 p-2 rounded-md border border-gray-400" placeholder="Email" type="email">
+                    <input name="password" class="w-full mb-5 p-2 rounded-md border border-gray-400" placeholder="Senha" type="password">
+                    <div class="flex justify-center self-end w-full h-full">
+                        <div class="w-full flex flex-col self-end">
+                            <button class="bg-blue-500 hover:bg-blue-600 py-2 px-7 w-22 text-white rounded-xl mb-2">Entrar</button>
+                            <h1  class="self-center mb-2">Não possui uma conta? <a class="text-blue-800" href="/create_account">Cadastre-se!</a></h1>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

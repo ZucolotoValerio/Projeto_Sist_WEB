@@ -50,6 +50,60 @@
                     "stars": 5
                 }
             ]
+        },
+        {
+            "author": "AUTOR TESTE",
+            "category": "history",
+            "date_release": "10/10/202010",
+            "description": "AIM SEMMMMM MENOR",
+            "id_book": 5,
+            "name_book": "TESTEEEEEEEEEEEEEE",
+            "rates": []
+        },
+        {
+            "author": "AUTOR TESTE222",
+            "category": "history",
+            "date_release": "10/10/2020102222",
+            "description": "AIM SEMMMMM MENOR2222",
+            "id_book": 6,
+            "name_book": "TESTEEEEEEEEEEEEEE222",
+            "rates": []
+        },
+        {
+            "author": "AUTOR TESTE222",
+            "category": "history",
+            "date_release": "10/10/2020102222",
+            "description": "AIM SEMMMMM MENOR2222",
+            "id_book": 7,
+            "name_book": "TESTEEEEEEEEEEEEEE222",
+            "rates": []
+        },
+        {
+            "author": "sdfvsdf",
+            "category": "history",
+            "date_release": "sdfvsdf",
+            "description": "sdfvsdfv",
+            "id_book": 8,
+            "name_book": "nsdosu\u00e7ovns",
+            "rates": []
+        },
+        {
+            "author": "as",
+            "category": "history",
+            "date_release": "as",
+            "description": "as",
+            "id_book": 9,
+            "name_book": "sa",
+            "rates": []
+        },
+        {
+            "author": "Alguem",
+            "category": "history",
+            "date_release": "10/07/1784",
+            "description": "Livro que fala de um pequeno principe",
+            "id_book": 10,
+            "name_book": "O pequeno Pr\u00edncipe",
+            "rates": []
         }
     ]
 }

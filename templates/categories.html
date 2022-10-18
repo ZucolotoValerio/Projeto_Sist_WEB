@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Categorias</title>
+</head>
+<body>
+    <div class="absolute top-0 flex w-full h-24 bg-blue-500">
+        <div class="w-1/2 h-full">
+            <div class="flex justify-center items-center w-1/2 h-full">
+                <h1 class="text-3xl text-white">EducaES</h1>
+            </div>
+        </div>
+        <div class="flex items-center w-1/2 h-full">
+            <ul class="w-full flex justify-center space-x-5 text-lg text-white">
+                <li class="hover:bg-blue-600 p-2 rounded-lg"><a href="/all_category"> Categorias </a></li>
+                <li class="hover:bg-blue-600 p-2 rounded-lg"><a href="/auth"> Log In </a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="w-full h-screen">
+        <div class="flex flex-col items-center h-full w-full px-10 pt-36 bg-gray-100">
+
+            <h1 class="text-2xl mb-10">Categorias</h1>
+
+            <div class="w-full h-2/3">
+                <form class="flex w-full h-full" action="/get_category" method="post">
+
+                    {% for category in categories_json["data"] %}
+                    <div class="flex flex-col items-center bg-white w-1/3 h-full m-2 shadow-md hover:shadow-xl p-5 rounded-lg cursor-pointer">
+                        <input name="category" class="hidden" value={{category["name_category"]}} type="text" id="">
+                        <h1 class="text-xl mb-5">{{category["name_category"]}}</h1>
+                        <img class="w-full h-2/3 rounded-lg" src={{category["img"]}} alt="">
+                        <h1 class="mt-5">Livros: {{category["number_books"]}}</h1>
+                        <button class="hover:shadow-lg mt-3 py-1 px-2 bg-blue-500 text-white rounded-lg">Selecionar</button>
+                    </div>
+                    {% endfor %}
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

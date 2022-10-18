@@ -1,16 +1,13 @@
 {
     "history": [
         {
-            "id_book": "This is image",
-            "image": "https://blablabla"
-        },
-        {
-            "author": "fulano",
+            "author": "Anne Frank",
+            "img": "https://a-static.mlcdn.com.br/800x560/livro-o-diario-de-anne-frank/curtalivros/9786580921027/a12a6f8a1505ac335137957260e848fc.jpg",
             "category": "history",
-            "date_release": "dia tal",
-            "description": "balblabla livro bom",
+            "date_release": "xx/xx/1947",
+            "description": "O diário da garotinha Anne Frank",
             "id_book": 2,
-            "name_book": "Segunda guerra em cores",
+            "name_book": "O Diário de Anne Frank",
             "rates": [
                 {
                     "author_rate": "fulano de tal",
@@ -21,12 +18,13 @@
             ]
         },
         {
-            "author": "fulano",
+            "author": "MArgaret MacMillan",
+            "img": "https://m.media-amazon.com/images/I/91JwT4D+4KL.jpg",
             "category": "history",
             "date_release": "dia tal",
             "description": "balblabla livro bom",
             "id_book": 1,
-            "name_book": "Primeira guerra em cores",
+            "name_book": "Primeira Guerra Mundial",
             "rates": [
                 {
                     "author_rate": "fulano de tal",
@@ -37,12 +35,13 @@
             ]
         },
         {
-            "author": "O mestre dos livros",
+            "author": "Jane Austen",
+            "img": "https://m.media-amazon.com/images/I/61JosO2tkdL.jpg",
             "category": "history",
             "date_release": "01/10/1998",
             "description": "balblabla livro bom",
             "id_book": 5,
-            "name_book": "Leonardo Da Vinci",
+            "name_book": "Orgulho e Preconceito",
             "rates": [
                 {
                     "author_rate": "Pedrao da Massa",
@@ -50,60 +49,6 @@
                     "stars": 5
                 }
             ]
-        },
-        {
-            "author": "AUTOR TESTE",
-            "category": "history",
-            "date_release": "10/10/202010",
-            "description": "AIM SEMMMMM MENOR",
-            "id_book": 5,
-            "name_book": "TESTEEEEEEEEEEEEEE",
-            "rates": []
-        },
-        {
-            "author": "AUTOR TESTE222",
-            "category": "history",
-            "date_release": "10/10/2020102222",
-            "description": "AIM SEMMMMM MENOR2222",
-            "id_book": 6,
-            "name_book": "TESTEEEEEEEEEEEEEE222",
-            "rates": []
-        },
-        {
-            "author": "AUTOR TESTE222",
-            "category": "history",
-            "date_release": "10/10/2020102222",
-            "description": "AIM SEMMMMM MENOR2222",
-            "id_book": 7,
-            "name_book": "TESTEEEEEEEEEEEEEE222",
-            "rates": []
-        },
-        {
-            "author": "sdfvsdf",
-            "category": "history",
-            "date_release": "sdfvsdf",
-            "description": "sdfvsdfv",
-            "id_book": 8,
-            "name_book": "nsdosu\u00e7ovns",
-            "rates": []
-        },
-        {
-            "author": "as",
-            "category": "history",
-            "date_release": "as",
-            "description": "as",
-            "id_book": 9,
-            "name_book": "sa",
-            "rates": []
-        },
-        {
-            "author": "Alguem",
-            "category": "history",
-            "date_release": "10/07/1784",
-            "description": "Livro que fala de um pequeno principe",
-            "id_book": 10,
-            "name_book": "O pequeno Pr\u00edncipe",
-            "rates": []
         }
     ]
 }

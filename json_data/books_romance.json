@@ -1,12 +1,13 @@
 {
     "romance": [
         {
-            "author": "kid",
+            "author": "Joh Green",
+            "img": "https://m.media-amazon.com/images/I/91K-MrUTNOL.jpg",
             "category": "romance",
-            "date_release": "ontem",
-            "description": "grandao",
+            "date_release": "12/09/2011",
+            "description": "Um garoto e uma garota estão apaixonados",
             "id_book": 1,
-            "name_book": "pintao gostoso",
+            "name_book": "A culpa é das estrelas",
             "rates": []
         }
     ]

@@ -1,13 +1,13 @@
 {
     "science": [
         {
-            "author": "fulano",
-            "img": "https://a-static.mlcdn.com.br/1500x1500/livro-o-pequeno-principe/magazineluiza/228782900/159d6918b41a93af36fe6727aab9b701.jpg",
+            "author": "Carl Sagan",
+            "img": "https://m.media-amazon.com/images/I/71zVhbnKmfL.jpg",
             "category": "science",
-            "date_release": "dia tal",
-            "description": "balblabla livro bom",
+            "date_release": "24/08/1997",
+            "description": "O Cosmos como você nunca viu com  Carl Sagan",
             "id_book": 1,
-            "name_book": "Viagem a Lua",
+            "name_book": "Cosmos",
             "rates": [
                 {
                     "author_rate": "fulano de tal",
@@ -18,13 +18,13 @@
             ]
         },
         {
-            "author": "fulano",
-            "img": "https://a-static.mlcdn.com.br/1500x1500/livro-o-pequeno-principe/magazineluiza/228782900/159d6918b41a93af36fe6727aab9b701.jpg",
+            "author": "Albert Eintein",
+            "img": "https://m.media-amazon.com/images/I/41lIZkkZkhL.jpg",
             "category": "science",
-            "date_release": "dia tal",
-            "description": "balblabla livro bom",
+            "date_release": "25/04/1939",
+            "description": "Os cálculos e conceitos acerca da teoria da relatividade",
             "id_book": 2,
-            "name_book": "mist\u00c3\u00a9rios dos largatos",
+            "name_book": "Teoria da Relatividade",
             "rates": [
                 {
                     "author_rate": "fulano de tal",
@@ -41,13 +41,13 @@
             ]
         },
         {
-            "author": "pedrim da serra",
-            "img": "https://a-static.mlcdn.com.br/1500x1500/livro-o-pequeno-principe/magazineluiza/228782900/159d6918b41a93af36fe6727aab9b701.jpg",
+            "author": "Nélio Bizzo",
+            "img": "https://a-static.mlcdn.com.br/1500x1500/livro-pensamento-cientifico/magazineluiza/226388300/34fca38fbbcde70c5f682a47f3862eb2.jpg",
             "category": "science",
             "date_release": "01/10/1998",
-            "description": "pedrim e sua historia de vida na selva",
+            "description": "A natureza da ciencia no ensino fundamental",
             "id_book": 3,
-            "name_book": "O poderoso Pedrao",
+            "name_book": "Pensamento Científico",
             "rates": []
         }
     ]

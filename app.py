@@ -55,22 +55,12 @@ def getBook():
     book_search = request.form
     print(book_search)
     return book_search
-    # book_obj = None
-        
-    # with open(os.path.join('./json_data', 'books_'+book_search["category"]+'.json'), 'r') as json_books:
-    #     body_books = json.loads(json_books.read())
-
-    #     for book in body_books["data"]:
-    #         if book["name_book"] == book_search["name_book"]:
-    #             book_obj = book
-
-    # return render_template("book.html", book=book_obj)
                 
 
 @app.route("/rate_book", methods=["POST"])
 def rateBook():
     # EXEMPLO DE OBJETO PARA ENVIAR {"id_book": 5, "category": "science", "rate": {"author_rate": "Juliano do Morro", "comment": "Livro muito loko meu", "stars": 4}}
-    rate_object = request.form
+    rate_object = request.json
 
     with open(os.path.join('./json_data', 'books_'+rate_object["category"]+'.json'), 'r') as json_books:
         body_books = json.loads(json_books.read())
@@ -117,10 +107,11 @@ def createAccount():
 def getCategory():
     # EXEMPLO DE OBJETO PARA ENVIAR {"category": "history"}
     search_body = request.form
-
+    print(search_body)
     with open(os.path.join('./json_data', 'books_'+search_body["category"]+'.json'), 'r') as json_category:
         body_books = json_category.read()
 
+    print(body_books)
     return render_template("category_list.html", category=search_body["category"], list_category=json.loads(body_books))
 
 

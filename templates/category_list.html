@@ -22,15 +22,15 @@
 
     <div class="w-full h-screen">
         <div class="flex flex-col items-center h-full w-full pt-32 bg-gray-100 p-5">
-            <h1 class="text-2xl mb-5">Categoria</h1>
-            <div class="w-1/2 h-full bg-green-500 rounded-lg">
+            <h1 class="text-2xl mb-5 truncate">{{category["category"]}}</h1>
+            <div class="w-1/2 h-full rounded-lg overflow-auto">
 
 
                 {% for book in list_category[category] %}
-                    <div class="my-2 flex items-center justify-between h-1/4 w-full bg-gray-300 p-3 hover:shadow-lg rounded-lg">
-                        <img class="h-32 w-32 bg-yellow-500" src={{book["img"]}} alt="">
+                    <div class="my-2 bg-white flex items-center justify-between h-1/4 w-full p-3 hover:shadow-lg rounded-lg">
+                        <img class="h-32 w-32" src={{book["img"]}} alt="">
                         <h1 class="text-xl">{{book["name_book"]}}</h1>
-                        <form action="/get_book" method="post">
+                        <form id="{{category["category"]}}" action="/get_book" method="post">
                             <input name="name_book" class="hidden" value={{book["name_book"]}} type="text">
                             <input name="category" class="hidden" value={{book["category"]}} type="text">
                             <button>Ver Livro</button>

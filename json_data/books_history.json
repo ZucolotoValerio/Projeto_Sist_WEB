@@ -2,28 +2,38 @@
     "history": [
         {
             "author": "Anne Frank",
-            "img": "https://a-static.mlcdn.com.br/800x560/livro-o-diario-de-anne-frank/curtalivros/9786580921027/a12a6f8a1505ac335137957260e848fc.jpg",
             "category": "history",
             "date_release": "xx/xx/1947",
-            "description": "O diário da garotinha Anne Frank",
+            "description": "O di\u00c3\u00a1rio da garotinha Anne Frank",
             "id_book": 2,
-            "name_book": "O Diário de Anne Frank",
+            "img": "https://a-static.mlcdn.com.br/800x560/livro-o-diario-de-anne-frank/curtalivros/9786580921027/a12a6f8a1505ac335137957260e848fc.jpg",
+            "name_book": "O Di\u00c3\u00a1rio de Anne Frank",
             "rates": [
                 {
                     "author_rate": "fulano de tal",
                     "comment": "muito top livrozim massa",
                     "email": "fulano@email.com",
                     "stars": 5
+                },
+                {
+                    "author_rate": "Pedro Gabriel",
+                    "comment": "Livro muito bom!!!!!",
+                    "stars": 3
+                },
+                {
+                    "author_rate": "Pedro Gabriel",
+                    "comment": "Livro muito bom!!!!!",
+                    "stars": 3
                 }
             ]
         },
         {
             "author": "MArgaret MacMillan",
-            "img": "https://m.media-amazon.com/images/I/91JwT4D+4KL.jpg",
             "category": "history",
             "date_release": "dia tal",
             "description": "balblabla livro bom",
             "id_book": 1,
+            "img": "https://m.media-amazon.com/images/I/91JwT4D+4KL.jpg",
             "name_book": "Primeira Guerra Mundial",
             "rates": [
                 {
@@ -36,11 +46,11 @@
         },
         {
             "author": "Jane Austen",
-            "img": "https://m.media-amazon.com/images/I/61JosO2tkdL.jpg",
             "category": "history",
             "date_release": "01/10/1998",
             "description": "balblabla livro bom",
             "id_book": 5,
+            "img": "https://m.media-amazon.com/images/I/61JosO2tkdL.jpg",
             "name_book": "Orgulho e Preconceito",
             "rates": [
                 {

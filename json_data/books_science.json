@@ -2,11 +2,11 @@
     "science": [
         {
             "author": "Carl Sagan",
-            "img": "https://m.media-amazon.com/images/I/71zVhbnKmfL.jpg",
             "category": "science",
             "date_release": "24/08/1997",
-            "description": "O Cosmos como você nunca viu com  Carl Sagan",
+            "description": "O Cosmos como voc\u00c3\u00aa nunca viu com  Carl Sagan",
             "id_book": 1,
+            "img": "https://m.media-amazon.com/images/I/71zVhbnKmfL.jpg",
             "name_book": "Cosmos",
             "rates": [
                 {
@@ -19,11 +19,11 @@
         },
         {
             "author": "Albert Eintein",
-            "img": "https://m.media-amazon.com/images/I/41lIZkkZkhL.jpg",
             "category": "science",
             "date_release": "25/04/1939",
-            "description": "Os cálculos e conceitos acerca da teoria da relatividade",
+            "description": "Os c\u00c3\u00a1lculos e conceitos acerca da teoria da relatividade",
             "id_book": 2,
+            "img": "https://m.media-amazon.com/images/I/41lIZkkZkhL.jpg",
             "name_book": "Teoria da Relatividade",
             "rates": [
                 {
@@ -41,13 +41,22 @@
             ]
         },
         {
-            "author": "Nélio Bizzo",
-            "img": "https://a-static.mlcdn.com.br/1500x1500/livro-pensamento-cientifico/magazineluiza/226388300/34fca38fbbcde70c5f682a47f3862eb2.jpg",
+            "author": "N\u00c3\u00a9lio Bizzo",
             "category": "science",
             "date_release": "01/10/1998",
             "description": "A natureza da ciencia no ensino fundamental",
             "id_book": 3,
-            "name_book": "Pensamento Científico",
+            "img": "https://a-static.mlcdn.com.br/1500x1500/livro-pensamento-cientifico/magazineluiza/226388300/34fca38fbbcde70c5f682a47f3862eb2.jpg",
+            "name_book": "Pensamento Cientifico",
+            "rates": []
+        },
+        {
+            "author": "Pedro",
+            "category": "science",
+            "date_release": "10/10/2010",
+            "description": "livro bom",
+            "id_book": 4,
+            "name_book": "Livro teste",
             "rates": []
         }
     ]

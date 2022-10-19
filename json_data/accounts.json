@@ -39,6 +39,21 @@
             "email": "juliano@email.com",
             "name": "juliano pinto grande",
             "password": "juliano"
+        },
+        {
+            "email": "pedro@email.com",
+            "name": "Pedro Gabriel",
+            "password": "senha"
+        },
+        {
+            "email": "pedroteste@email.com",
+            "name": "Pedro Gabriel",
+            "password": "asd"
+        },
+        {
+            "email": "pedroteste2@email.com",
+            "name": "Pedro gabriel",
+            "password": "123"
         }
     ]
 }
